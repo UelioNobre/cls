@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^detalhes/?$ /contato.php [NC,L]
+
+# Página de exibição de um produto
+RewriteRule ^detalhes/([a-z0-9-]+)/?$ detalhes.php?id=$1 [NC]
+</IfModule>
