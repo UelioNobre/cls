@@ -1,0 +1,4 @@
+cls
+===
+
+dados do cls
