@@ -9,6 +9,9 @@ if (array_key_exists('id', $_GET)) {
     $id = 0;
 }
 
+?>
+
+<?php
 $produto = ProdutoDetalhes::getInstance();
 $produto->getProduto($id);
 ?>
