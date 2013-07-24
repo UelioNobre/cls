@@ -46,3 +46,4 @@ $produto->getProduto($id);
         </div>
     </body>
 </html>
+<!-- Fim da página -->
