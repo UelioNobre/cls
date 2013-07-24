@@ -8,8 +8,25 @@ require_once 'includes/includes.php';
         <title></title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <div class="container">
+            <div class="row">
+                <div class="span2">
+                    <?php
+                    // navegação
+                    $navegacao = Navegacao::getInstance();
+                    $navegacao->menuHome();
+                    ?>
+                </div>
+
+                <div class="span10">
+
+                    <?php
+                    // vitrine
+                    $vitrine = Vitrine::getInstance();
+                    $vitrine->vitrineHome();
+                    ?>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
