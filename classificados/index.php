@@ -5,7 +5,8 @@ require_once 'includes/includes.php';
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <title>Classificados do Cariri</title>
     </head>
     <body>
         <div class="container">
