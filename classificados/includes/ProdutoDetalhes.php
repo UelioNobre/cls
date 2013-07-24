@@ -47,7 +47,7 @@ class ProdutoDetalhes {
     /** Retorna o id do produto
      * @return Int
      */
-    private function getId() {
+    public function getId() {
         return $this->id;
     }
 
@@ -62,7 +62,7 @@ class ProdutoDetalhes {
     /** Retorna o titulo do produto
      * @return String
      */
-    private function getTitulo() {
+    public function getTitulo() {
         return $this->titulo;
     }
 
@@ -77,7 +77,7 @@ class ProdutoDetalhes {
     /** Retorna a descricao do produto
      * @return String
      */
-    private function getDescricao() {
+    public function getDescricao() {
         return $this->descricao;
     }
 
@@ -92,7 +92,7 @@ class ProdutoDetalhes {
     /** Retorna o valor do produto
      * @return double
      */
-    private function getValor() {
+    public function getValor() {
         return $this->valor;
     }
 
